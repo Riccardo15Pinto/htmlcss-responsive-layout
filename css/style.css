@@ -86,5 +86,14 @@ header .container > *{
     background-color: #9792E4;
 }
 
+/* benefits */
+.benefits{
+    background-color: #9792E4;
+}
+
+.benefits .card{
+    background-color: white;
+    color: #9792E4;
+}
 /* responsive */
 
