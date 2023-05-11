@@ -41,6 +41,14 @@ footer{
     background-color: #333;
 }
 
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 /* header */
 
 header .container{
@@ -51,6 +59,10 @@ header .container{
 header .container > *{
     color: white;
     font-size: 30px;
+}
+
+nav div:first-child{
+    display: none;
 }
 
 /* main */
@@ -162,7 +174,7 @@ header .container > *{
         max-width: 900px;
     }
 
-    .demo-application .row .col .card:first-child{
+    .demo-application .card-992px{
         display: flex;
         justify-content:space-between;
     }
@@ -181,6 +193,14 @@ header .container > *{
     .benefits .col{
         flex-basis: calc(100% / 3 - 20px);
         padding: 10px;
+    }
+
+    nav div:first-child{
+        display: inline-block;
+    }
+
+    nav div:last-child{
+        display: none;
     }
 }
 
