@@ -187,6 +187,11 @@ header nav i {
     height: 50px;
     border-radius: 50%;
     background-color: #9792E4;
+    cursor: pointer;
+}
+
+.strategic-plan .right-col .col-text i{
+    background-color: #9792E4;
 }
 
 /* testimonials */
