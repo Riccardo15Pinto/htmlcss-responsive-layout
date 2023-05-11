@@ -50,7 +50,10 @@ header .container > *{
 }
 
 /* main */
-.first-sec .card{
+
+/* demo-application */
+
+.demo-application .card{
     background-color: #B5DDFF;
     height: 100px;
 }
@@ -58,6 +61,25 @@ header .container > *{
 .col{
     margin: 60px 0;
 }
+
+/* strategic-plane */
+
+.strategic-plan{
+    background-color: #9792E4;
+}
+
+.strategic-plan .row > div{
+    background-color: aquamarine;
+}
+
+.strategic-plan .row div:first-child{
+    margin-bottom: 20px;
+}
+
+.strategic-plan .container{
+    padding: 30px 0;
+}
+
 
 /* responsive */
 
