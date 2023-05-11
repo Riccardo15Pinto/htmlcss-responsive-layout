@@ -49,6 +49,10 @@ header .container > *{
     border-radius: 30px;
 }
 
+.container{
+    padding: 30px 0;
+}
+
 /* main */
 
 /* demo-application */
@@ -58,8 +62,8 @@ header .container > *{
     height: 100px;
 }
 
-.col{
-    margin: 60px 0;
+.demo-application .col{
+    margin-bottom: 50px;
 }
 
 /* strategic-plane */
@@ -76,10 +80,11 @@ header .container > *{
     margin-bottom: 20px;
 }
 
-.strategic-plan .container{
-    padding: 30px 0;
-}
+/* testimonials */
 
+.testimonials .card{
+    background-color: #9792E4;
+}
 
 /* responsive */
 
