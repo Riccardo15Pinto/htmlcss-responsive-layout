@@ -40,6 +40,9 @@ body{
 
 header{
     background-color: #0084FD;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 footer{
@@ -84,23 +87,64 @@ nav .button{
     color: black;
 }
 
+header nav i {
+    color: white;
+}
+
 /* main */
 
 /* demo-application */
+
+.demo-application{
+    margin-top: 100px;
+}
 
 .demo-application .card{
     background-color: #B5DDFF;
 }
 
-.demo-application .col{
-    margin-bottom: 50px;
+.demo-application .small-card h3, i,
+.demo-application .card-992px h3 {
+    color: #0084FD;
 }
 
-.card-992px > *{
-    flex-basis: 50%;
+.demo-application .small-card i{
+    font-size: 70px;
 }
 
+.demo-application .small-card h3 ,
+.demo-application .card-992px h3 {
+    font-size: 20px;
+}
 
+.demo-application p {
+    color: #5A6E7F;
+    line-height: 30px;
+}
+
+.demo-application .small-card > *{
+    text-align: center;
+}
+
+.card-content{
+    padding: 30px;
+}
+
+.card-content > *{
+    margin-bottom: 20px;
+}
+
+.demo-application .card-992px .button, a i{
+    background-color: #0084FD;
+    color: white;
+}
+
+.card-992px .button {
+    font-size: 20px;
+    padding: 10px 40px;
+    display: inline-block;
+    margin-top: 20px;
+}
 
 /* strategic-plane */
 
@@ -148,6 +192,20 @@ nav .button{
     .container{
         max-width: 500px;
     }
+
+    .demo-application .col{
+        margin-bottom: 50px;
+    }
+
+    .card-992px{
+        text-align: center;
+    }
+
+    .container-image{
+        width: 50%;
+        margin: 0 auto;
+    }
+    
 }
 
 @media screen and (min-width:768px) {
@@ -169,6 +227,19 @@ nav .button{
 
     .demo-application .row .col:first-child{
         flex-basis:66%;
+    }
+
+    .card-992px{
+        text-align: left;
+    }
+
+    .container-image{
+        width: 50%;
+        margin: 0;
+    }
+
+    .demo-application .card{
+        height: 100%;
     }
 
     .testimonials .card{
@@ -201,6 +272,16 @@ nav .button{
     .demo-application .card-992px{
         display: flex;
         justify-content:space-between;
+        align-items: flex-end;
+    }
+
+    .card-992px > *{
+    flex-basis: 50%;
+    }
+
+    .card-992px .container-image > *{
+        width: 70%;
+        margin: 0px auto;
     }
 
     .strategic-plan .row{
@@ -226,6 +307,9 @@ nav .button{
     nav div:last-child{
         display: none;
     }
+
+
+    
 }
 
 @media screen and (min-width:1200px) {
