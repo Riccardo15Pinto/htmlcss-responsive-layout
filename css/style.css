@@ -166,6 +166,22 @@ header .container > *{
         display: flex;
         justify-content:space-between;
     }
+
+    .strategic-plan .row{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .benefits .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -20px;
+    }
+
+    .benefits .col{
+        flex-basis: calc(100% / 3 - 20px);
+        padding: 10px;
+    }
 }
 
 @media screen and (min-width:1200px) {
