@@ -40,9 +40,23 @@ header .container{
 }
 
 header .container > *{
-    padding: 10px 0;
+    padding: 30px 0;
     color: white;
     font-size: 30px;
+}
+
+.card{
+    border-radius: 30px;
+}
+
+/* main */
+.first-sec .card{
+    background-color: #B5DDFF;
+    height: 100px;
+}
+
+.col{
+    margin: 60px 0;
 }
 
 /* responsive */
