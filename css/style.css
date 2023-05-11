@@ -152,12 +152,12 @@ header nav i {
     background-color: #9792E4;
 }
 
-.strategic-plan .row > div{
-    background-color: aquamarine;
-}
-
 .strategic-plan .row div:first-child{
     margin-bottom: 20px;
+}
+
+.strategic-plan .card{
+    background-color: white;
 }
 
 /* testimonials */
@@ -205,6 +205,10 @@ header nav i {
         width: 50%;
         margin: 0 auto;
     }
+
+    .strategic-plan .container-image{
+        width: 100%;
+    }
     
 }
 
@@ -240,6 +244,10 @@ header nav i {
 
     .demo-application .card{
         height: 100%;
+    }
+
+    .strategic-plan .container-image{
+        width: 100%;
     }
 
     .testimonials .card{
@@ -286,8 +294,11 @@ header nav i {
 
     .strategic-plan .row{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
     }
+
+    
+   
 
     .benefits .row{
         display: flex;
