@@ -158,6 +158,35 @@ header nav i {
 
 .strategic-plan .card{
     background-color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.strategic-plan .row p{
+    line-height: 25px;
+    font-family: sans-serif;
+}
+
+.strategic-plan .row .col-text > *{
+    margin-bottom: 30px;
+}
+
+.strategic-plan .left-col{
+    color: white;
+}
+
+.strategic-plan .right-col p{
+    font-style: italic;
+}
+
+.strategic-plan .right-col .col-text div{
+    display: inline-block;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #9792E4;
 }
 
 /* testimonials */
@@ -297,7 +326,10 @@ header nav i {
         justify-content: center;
     }
 
-    
+    .strategic-plan .right-col{
+        padding:0 20px;
+        padding-top: 100px;
+    }
    
 
     .benefits .row{
