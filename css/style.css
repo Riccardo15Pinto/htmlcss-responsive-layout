@@ -8,10 +8,42 @@
 
 /* utility*/
 
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
 /* generics */
+
+img{
+    width: 100%;
+    display: block;
+}
 
 body{
     font-family: 'Fredoka', sans-serif;
 }
 
+header{
+    background-color: #0084FD;
+}
+
+/* header */
+
+header .container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container > *{
+    padding: 10px 0;
+    color: white;
+    font-size: 30px;
+}
+
 /* responsive */
+
